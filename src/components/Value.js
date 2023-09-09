@@ -9,7 +9,11 @@ function Value() {
     </div>
     <div className='stage'>
        <label>Client</label>
-       <input value='Mostafa Osman' className='inp'/>  
+       
+       <div class="tag">
+          Tag Name
+          <span class="plus">+</span>
+        </div> 
     </div>
   </div>  
   )

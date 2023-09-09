@@ -8,7 +8,7 @@ function Due() {
   return (
     <div className='nameComp'>
     <div className='name'>
-    <label>Proposal Submission Date</label>
+    <label>Due Date</label>
     <button onClick={() => setShowCalendar(!showCalendar)} className='btnpro'> <img src="././Field.png" alt="My Image" /> </button>
     {showCalendar && <Calendar onChange={setDate} value={date} />}
     </div>

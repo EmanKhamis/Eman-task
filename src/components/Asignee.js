@@ -2,20 +2,17 @@ import React from 'react'
 import { useState } from 'react';
 
 function Asignee() {
-  const {asignee , setaAsignee} = useState('');
-  const {company , setCompany} = useState('');
+const [selectedName, setSelectedName] = useState('Mostafa Osman');
+const [selectedCompany, setSelectedCompany] = useState('Holding Company');
+  
 
-  const handelAsignee =(e)=>{
-    setaAsignee(e.target.value);
-  }
-  const handelCompany =(e)=>{
-    setaAsignee(e.target.value);
-}
+  
   return (
     <div className='nameComp'>
     <div className='name'>
       <label>Asignee</label>
-      <select className='sel' >
+      <select className='sel'  value={selectedName}
+      onChange={e => setSelectedName(e.target.value)}>
       <option value="volvo" selected className='potion'> <img src="././man.png" alt="My Image" /> Mostafa Osman </option>
       <option value="saab">Mostafa Osman</option>
       <option value="mercedes">Mostafa Osman</option>
@@ -24,7 +21,7 @@ function Asignee() {
     </div>
     <div className='stage'>
        <label>Company</label>
-      <select className='sel' >
+      <select className='sel'  value={selectedCompany}  onChange={e => setSelectedCompany(e.target.value)} >
        <option value="Holding Company" selected className='potion'>Holding Company</option>
        <option value="Company X" selected className='potion'> Company X</option>
        <option value="Company Y" selected className='potion'>Company Y</option>

@@ -84,10 +84,7 @@ padding-bottom: 8px;
 option{
   height: 100px;
 }
-.inp{
- 
-  padding-left: 17px;
-}
+
 .btnpro{
   width: 528px;
   height: 36px;
@@ -258,5 +255,50 @@ margin-top: -3px;
   margin-left: 12px;
 }
 
+.tag {
+  width: 528px;
+  height: 36px;
+  position: relative;
+  display: inline-block;
+ /* padding: 10px;*/
+  background-color:white;
+  border: solid #ece8e8 1px;
+}
 
+.tag-name {
+  transition: transform 0.3s ease-in-out;
+}
 
+.plus {
+  position: absolute;
+  left: 5px;
+  bottom: 5px;
+  display: none;
+  font-weight:bolder;
+}
+
+.plus:before {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid red;
+}
+
+.tag:hover .plus {
+  display: inline;
+}
+
+.tag:hover .tag-name {
+  transform: translateX(10px);
+}
+
+.tag:hover .plus {
+    color:red
+}
+.name1:hover{
+  border: 1px solid #D75100;
+}

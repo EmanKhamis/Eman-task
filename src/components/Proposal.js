@@ -4,6 +4,8 @@ import { useState } from 'react';
 function Proposal() {
     const [date, setDate] = useState(new Date());
     const [showCalendar, setShowCalendar] = useState(false);
+    const {newIncoming , setNewIncoming} =useState('Incoming');
+
   return (
     <div className='nameComp'>
     <div className='name'>
@@ -13,11 +15,11 @@ function Proposal() {
     </div>
     <div className='stage'>
        <label>Incoming/Outgoing</label>
-      <select className='sel' >
-       <option value="volvo" selected className='potion'>Discovery</option>
-       <option value="saab">one</option>
-       <option value="mercedes">two</option>
-       <option value="audi">three</option>
+      <select className='sel' value={newIncoming}  onChange={e => setNewIncoming(e.target.value)}>
+       <option value="volvo" selected className='potion'>Incoming</option>
+       <option value="saab">Incoming</option>
+       <option value="mercedes">Outgoing</option>
+       
       </select>
     </div>
   </div>  
