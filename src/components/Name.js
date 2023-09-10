@@ -16,8 +16,8 @@ function Name() {
     <input onChange={handelName} className='name1'/>
     </div>
     <div className='stage'>
-       <label>Stage</label >
-      <select className='sel' value={stag}  onChange={e => setStage(e.target.value)}>
+       <label>Stage </label >
+      <select className='sel name2' value={stag}  onChange={e => setStage(e.target.value)}>
        <option value="volvo" selected className='potion'>Discovery</option>
        <option value="saab">Proposal</option>
        <option value="mercedes">Negotiation</option>

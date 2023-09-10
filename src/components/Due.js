@@ -14,12 +14,10 @@ function Due() {
     </div>
     <div className='stage'>
        <label>Tags</label>
-      <select className='sel' >
-       <option value="volvo" selected className='potion'>Discovery</option>
-       <option value="saab">one</option>
-       <option value="mercedes">two</option>
-       <option value="audi">three</option>
-      </select>
+       <div class="tag name1 mm">
+       <span className='sp1'><h5>Tag1</h5> </span>
+       <span class="plus name1 ">+</span>
+     </div> 
     </div>
   </div>  
   )

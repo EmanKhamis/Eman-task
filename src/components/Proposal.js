@@ -15,7 +15,7 @@ function Proposal() {
     </div>
     <div className='stage'>
        <label>Incoming/Outgoing</label>
-      <select className='sel' value={newIncoming}  onChange={e => setNewIncoming(e.target.value)}>
+      <select className='sel  name2' value={newIncoming}  onChange={e => setNewIncoming(e.target.value)}>
        <option value="volvo" selected className='potion'>Incoming</option>
        <option value="saab">Incoming</option>
        <option value="mercedes">Outgoing</option>

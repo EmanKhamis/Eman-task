@@ -11,7 +11,7 @@ const [selectedCompany, setSelectedCompany] = useState('Holding Company');
     <div className='nameComp'>
     <div className='name'>
       <label>Asignee</label>
-      <select className='sel'  value={selectedName}
+      <select className='sel name2'  value={selectedName}
       onChange={e => setSelectedName(e.target.value)}>
       <option value="volvo" selected className='potion'> <img src="././man.png" alt="My Image" /> Mostafa Osman </option>
       <option value="saab">Mostafa Osman</option>
@@ -21,7 +21,7 @@ const [selectedCompany, setSelectedCompany] = useState('Holding Company');
     </div>
     <div className='stage'>
        <label>Company</label>
-      <select className='sel'  value={selectedCompany}  onChange={e => setSelectedCompany(e.target.value)} >
+      <select className='sel name2'  value={selectedCompany}  onChange={e => setSelectedCompany(e.target.value)} >
        <option value="Holding Company" selected className='potion'>Holding Company</option>
        <option value="Company X" selected className='potion'> Company X</option>
        <option value="Company Y" selected className='potion'>Company Y</option>
