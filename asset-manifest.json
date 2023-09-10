@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Eman-task/static/css/main.88e2cfd5.css",
-    "main.js": "/Eman-task/static/js/main.bb1ea6e2.js",
+    "main.css": "/Eman-task/static/css/main.8608a608.css",
+    "main.js": "/Eman-task/static/js/main.fb745ff9.js",
     "static/js/787.28cb0dcd.chunk.js": "/Eman-task/static/js/787.28cb0dcd.chunk.js",
     "index.html": "/Eman-task/index.html",
-    "main.88e2cfd5.css.map": "/Eman-task/static/css/main.88e2cfd5.css.map",
-    "main.bb1ea6e2.js.map": "/Eman-task/static/js/main.bb1ea6e2.js.map",
+    "main.8608a608.css.map": "/Eman-task/static/css/main.8608a608.css.map",
+    "main.fb745ff9.js.map": "/Eman-task/static/js/main.fb745ff9.js.map",
     "787.28cb0dcd.chunk.js.map": "/Eman-task/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.88e2cfd5.css",
-    "static/js/main.bb1ea6e2.js"
+    "static/css/main.8608a608.css",
+    "static/js/main.fb745ff9.js"
   ]
 }
